@@ -8,15 +8,15 @@ Trước khi chạy dự án, hãy đảm bảo bạn đã cài đặt các ph�
 
 # Cài đặt
 
-1. **Cài đặt phụ thuộc**:
+1. Cài đặt phụ thuộc:
 
 ```bash
 npm install
 ```
 
-2. **Cấu hình biến môi trường**:
+2. Cấu hình biến môi trường:
 
-- Tạo tệp `.env` trong thư mục gốc dự án dựa trên tệp và cấu hình các biến sau:
+- Tạo tệp `.env` trong thư mục gốc dự án và cấu hình các biến sau:
   ```
   DB_USERNAME =
   DB_PASSWORD =
@@ -25,7 +25,7 @@ npm install
   DB_PORT =
   ```
 
-3. **Thiết lập cơ sở dữ liệu**:
+3. Thiết lập cơ sở dữ liệu:
 
 - Cập nhật các giá trị trong `src/database/migrations/index.ts` để phù hợp với thiết lập cơ sở dữ liệu của bạn.
 - Tạo migration:
